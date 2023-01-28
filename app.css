@@ -1,1 +1,22 @@
 @import '/Styles/bootstrap-4.0.0-dist/css/bootstrap.min.css';
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 10px;
+    background-color: #cdcdcd;
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+    border: none;
+}
+
+.education-button-center {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.paddedHeading {
+    margin-bottom: 10px; /* Added */
+    margin-top: 10px;
+}

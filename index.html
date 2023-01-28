@@ -10,10 +10,52 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="education.html">Education</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          </div>
+      </nav>
+    </header>
     <main>
-        <h1>Christian Canales</h1>
-        <h2>Portfolio</h2>
-        <button type="button" class="btn btn-success" onclick="alertOnClick()">Submit</button>  
+      <div style="background-image: url('Media/Home.jpeg'); height: 100vh; background-repeat:no-repeat;
+      background-position: center center; background-size:cover;">
+        <div class="container">
+          <div class="row">
+              <div class="col">
+                  <!-- <div class="card" style="width: 18rem;">
+                      <div class="card-body ">
+                        <h4 class="card-title">Brianna Soza</h5>
+                        <h5 class="card-subtitle mb-2 text-muted">Professional Graphic Designer</h6>
+                        <h6>asdfasdfasdf</h6>
+                        <h6>asdfasdfasdf</h6>
+                      </div>
+                    </div> -->
+                    <h4 class="paddedHeading">Brianna Soza</h4>
+                    <h5 class="text-muted">Professional Graphic Designer</h5>
+              </div>
+              <div class="col">
+                  
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <button type="button" class="btn btn-primary" onclick="alertOnClick()">Hello World</button> 
+              </div>
+              <div class="col">
+
+              </div>
+          </div>
+      </div> 
+      </div>
     </main>
 	<script src="app.js"></script>
   </body>
